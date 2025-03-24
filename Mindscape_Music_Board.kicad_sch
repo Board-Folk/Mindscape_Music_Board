@@ -13419,7 +13419,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
+		(property "Footprint" "MMB_Library:CP_Radial_P5.00mm"
 			(at 378.1552 215.265 0)
 			(effects
 				(font
@@ -14072,7 +14072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "MMB_Library:CP_Radial_P2.50mm"
 			(at 358.4702 127.635 0)
 			(effects
 				(font
@@ -14554,7 +14554,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_18.0mmx34.29mm_W15.24mm"
+		(property "Footprint" "MMB_Library:DIP-24"
 			(at 232.41 146.05 0)
 			(effects
 				(font
@@ -15268,7 +15268,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-24_18.0mmx34.29mm_W15.24mm"
+		(property "Footprint" "MMB_Library:DIP-24"
 			(at 160.02 146.05 0)
 			(effects
 				(font
@@ -15714,7 +15714,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm"
+		(property "Footprint" "MMB_Library:CP_Radial_P5.00mm"
 			(at 341.3252 212.725 0)
 			(effects
 				(font
@@ -16242,7 +16242,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60247051-1ba1-4e6f-8c1e-a39e1e349958")
-		(property "Reference" "RV1"
+		(property "Reference" "R4"
 			(at 321.31 145.4149 0)
 			(effects
 				(font
@@ -16299,7 +16299,7 @@
 		(instances
 			(project ""
 				(path "/d145a514-8ad3-4361-b45e-7dea21701e11"
-					(reference "RV1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -16332,7 +16332,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "MMB_Library:CP_Radial_P2.50mm"
 			(at 316.865 134.3152 0)
 			(effects
 				(font
@@ -16733,7 +16733,7 @@
 		(fields_autoplaced yes)
 		(uuid "77d72f9e-82c1-4d9e-8ccd-23b114892db1")
 		(property "Reference" "R3"
-			(at 286.385 139.0649 0)
+			(at 285.75 139.0649 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16741,8 +16741,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "?"
-			(at 286.385 141.6049 0)
+		(property "Value" "1K"
+			(at 285.75 141.6049 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17665,7 +17665,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+		(property "Footprint" "MMB_Library:CP_Radial_P2.50mm"
 			(at 366.0902 215.265 0)
 			(effects
 				(font
@@ -18250,7 +18250,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx08_Slide_6.7x21.88mm_W7.62mm_P2.54mm_LowProfile"
+		(property "Footprint" "MMB_Library:SW_DIP_SPSTx08"
 			(at 43.18 198.12 0)
 			(effects
 				(font
@@ -18477,15 +18477,15 @@
 		(fields_autoplaced yes)
 		(uuid "d389f464-de96-4020-b2b7-6ebf28fc5be9")
 		(property "Reference" "R2"
-			(at 292.735 127.635 90)
+			(at 292.735 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "?"
-			(at 292.735 130.175 90)
+		(property "Value" "220"
+			(at 292.735 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19099,8 +19099,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eed0e1aa-3307-434e-9bfc-dba0184770ae")
-		(property "Reference" "C99"
-			(at 362.585 167.6399 0)
+		(property "Reference" "C9"
+			(at 361.95 167.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19109,7 +19109,7 @@
 			)
 		)
 		(property "Value" "C"
-			(at 362.585 170.1799 0)
+			(at 361.95 170.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19153,7 +19153,7 @@
 		(instances
 			(project ""
 				(path "/d145a514-8ad3-4361-b45e-7dea21701e11"
-					(reference "C99")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -19371,8 +19371,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faccb4f5-5d0c-4169-9427-a0fd987626e7")
-		(property "Reference" "C98"
-			(at 290.195 235.9659 0)
+		(property "Reference" "C13"
+			(at 290.83 235.9659 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19381,7 +19381,7 @@
 			)
 		)
 		(property "Value" "?"
-			(at 290.195 238.5059 0)
+			(at 290.83 238.5059 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19389,7 +19389,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
+		(property "Footprint" "MMB_Library:CP_Radial_P2.50mm"
 			(at 287.9852 241.935 0)
 			(effects
 				(font
@@ -19425,7 +19425,7 @@
 		(instances
 			(project "Mindscape_Music_Board"
 				(path "/d145a514-8ad3-4361-b45e-7dea21701e11"
-					(reference "C98")
+					(reference "C13")
 					(unit 1)
 				)
 			)

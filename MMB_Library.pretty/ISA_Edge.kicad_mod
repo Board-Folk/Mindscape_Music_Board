@@ -10,8 +10,8 @@
 		(uuid "86e8dfb3-a7c7-4978-8019-dfa91b822d69")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.2)
+				(size 1.2 1.2)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -140,6 +140,58 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "af16cc43-1b34-46ce-ade8-5ab383548012")
+	)
+	(fp_text user "B31"
+		(at -37.75 -4.75 0)
+		(unlocked yes)
+		(layer "B.Cu")
+		(uuid "b2d16cf6-8e37-4d6a-82d7-804e689a22d9")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "B1"
+		(at 41.25 -4.75 0)
+		(unlocked yes)
+		(layer "B.Cu")
+		(uuid "cce1cf41-5113-401a-bba2-ddbd23ec62a7")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(fp_text user "A31"
+		(at -41 -4.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3cfed0b9-a783-4a1b-b798-b1fd6df95711")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "A1"
+		(at 38 -4.75 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "dbbc87c1-53a2-4e9a-bb01-fe6d0c040b06")
+		(effects
+			(font
+				(size 1.2 1.2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 2.6 0)
