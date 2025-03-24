@@ -11463,36 +11463,6 @@
 		)
 		(uuid "fed972ff-5377-47cb-bcbf-5b480fcd47e8")
 	)
-	(text "(~{CHIP1})"
-		(exclude_from_sim no)
-		(at 69.215 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0c206062-e7cc-481b-803a-32e4af0f6ac6")
-	)
-	(text "(CHIP1)"
-		(exclude_from_sim no)
-		(at 45.72 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "32783c88-0a6e-4b24-b867-509109e08b7f")
-	)
-	(text "(DATA)"
-		(exclude_from_sim no)
-		(at 45.72 70.485 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "32aac544-f298-439f-9e7b-270c080badcc")
-	)
 	(text "Function of this FF is\nan (un)educated guess"
 		(exclude_from_sim no)
 		(at 313.055 29.845 0)
@@ -11502,16 +11472,6 @@
 			)
 		)
 		(uuid "388768c1-9424-485d-b3c3-6a893f0c8016")
-	)
-	(text "(~{DATA})"
-		(exclude_from_sim no)
-		(at 69.215 70.485 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b12ddf7d-5a75-49fd-b998-926ec57e0e73")
 	)
 	(label "A2"
 		(at 43.815 250.19 0)
@@ -11873,16 +11833,6 @@
 		)
 		(uuid "ceff6686-55e1-4590-aa55-0823570c4e08")
 	)
-	(label "CHIP0"
-		(at 65.405 52.705 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d0d29d34-7361-427e-8b1c-d51924de10e8")
-	)
 	(label "A0"
 		(at 232.41 114.3 0)
 		(effects
@@ -11962,16 +11912,6 @@
 			(justify right bottom)
 		)
 		(uuid "f615347a-b4a7-4f1f-a59a-380a14237bbe")
-	)
-	(label "CONTROL"
-		(at 65.405 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fd3d2346-4df0-4c22-a600-40fc828e6b8d")
 	)
 	(global_label "BC1_0"
 		(shape input)
@@ -13299,7 +13239,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0369d50c-d1d0-46f0-ae78-28257a8cb770")
-		(property "Reference" "RN1"
+		(property "Reference" "RP1"
 			(at 85.471 179.07 90)
 			(effects
 				(font
@@ -13375,7 +13315,7 @@
 		(instances
 			(project ""
 				(path "/d145a514-8ad3-4361-b45e-7dea21701e11"
-					(reference "RN1")
+					(reference "RP1")
 					(unit 1)
 				)
 			)
@@ -13409,7 +13349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
+		(property "Footprint" "MMB_Library:C_Disc_P7.50mm"
 			(at 305.7652 212.725 0)
 			(effects
 				(font
@@ -13719,7 +13659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "MMB_Library:R_P12.70mm"
 			(at 356.997 157.48 90)
 			(effects
 				(font
@@ -14544,7 +14484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
+		(property "Footprint" "MMB_Library:C_Disc_P7.50mm"
 			(at 317.1952 212.725 0)
 			(effects
 				(font
@@ -15910,7 +15850,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
+		(property "Footprint" "MMB_Library:C_Disc_P7.50mm"
 			(at 294.3352 212.725 0)
 			(effects
 				(font
@@ -16810,7 +16750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "MMB_Library:R_P12.70mm"
 			(at 282.067 140.335 90)
 			(effects
 				(font
@@ -17585,7 +17525,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
+		(property "Footprint" "MMB_Library:C_Disc_P7.50mm"
 			(at 282.9052 212.725 0)
 			(effects
 				(font
@@ -17655,7 +17595,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
+		(property "Footprint" "MMB_Library:C_Disc_P7.50mm"
 			(at 327.9902 212.725 0)
 			(effects
 				(font
@@ -18242,7 +18182,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
+		(property "Footprint" "MMB_Library:C_Poly_P7.50mm"
 			(at 300.6598 143.51 0)
 			(effects
 				(font
@@ -18552,7 +18492,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal"
+		(property "Footprint" "MMB_Library:R_P12.70mm"
 			(at 292.735 135.128 90)
 			(effects
 				(font
@@ -19107,7 +19047,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Axial_L18.0mm_D8.0mm_P25.00mm_Horizontal"
+		(property "Footprint" "MMB_Library:CP_Axial_P25.00mm_Horizontal"
 			(at 372.11 148.2598 0)
 			(effects
 				(font
@@ -19177,7 +19117,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
+		(property "Footprint" "MMB_Library:C_Poly_P7.50mm"
 			(at 359.7402 172.72 0)
 			(effects
 				(font
@@ -19313,7 +19253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D7.5mm_W5.0mm_P7.50mm"
+		(property "Footprint" "MMB_Library:C_Disc_P7.50mm"
 			(at 271.4752 212.725 0)
 			(effects
 				(font
