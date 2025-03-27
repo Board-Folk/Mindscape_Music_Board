@@ -11878,9 +11878,9 @@
 		)
 		(uuid "80c747d6-25ed-4e0e-ad18-3af2566a0c8c")
 	)
-	(text "DIP switch selects base address but the\nsoftware appears to use 300h hard-coded,\nso set the first two switches."
+	(text "DIP switch selects base address but the\nsoftware appears to use 300h hard-coded,\nso set the first two switches, i.e.\nclose all except 1 (SW7) and 2 (SW6)."
 		(exclude_from_sim no)
-		(at 43.18 154.94 0)
+		(at 43.18 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11911,7 +11911,7 @@
 		(uuid "e0ffd658-b5da-4fa6-952e-8bd110e7440d")
 	)
 	(label "SW3"
-		(at 111.76 237.49 0)
+		(at 36.83 229.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11961,7 +11961,7 @@
 		(uuid "11815304-c9c4-4fec-9a66-6d5727a5cf91")
 	)
 	(label "SW0"
-		(at 111.76 229.87 0)
+		(at 36.83 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12021,7 +12021,7 @@
 		(uuid "1d2c80bc-83e4-40dd-84f8-270b46aa3b67")
 	)
 	(label "SW5"
-		(at 36.195 232.41 0)
+		(at 111.76 234.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12081,7 +12081,7 @@
 		(uuid "3b5c47a6-5a8e-4799-a1ab-abdd89261d24")
 	)
 	(label "A6"
-		(at 234.315 99.06 180)
+		(at 234.95 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12091,7 +12091,7 @@
 		(uuid "4238a59e-9229-4ac2-9319-f3979695f425")
 	)
 	(label "SW4"
-		(at 66.04 170.815 90)
+		(at 63.5 170.815 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12111,7 +12111,7 @@
 		(uuid "53cd1d30-513b-4505-923b-f38e5993e88c")
 	)
 	(label "SW1"
-		(at 58.42 170.815 90)
+		(at 71.12 170.815 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12151,7 +12151,7 @@
 		(uuid "6fe14e36-ed36-428d-8aed-88682d81a4cd")
 	)
 	(label "SW2"
-		(at 60.96 170.815 90)
+		(at 68.58 170.815 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12201,7 +12201,7 @@
 		(uuid "78fe41b7-7436-4f1b-b147-3abdb670c4ce")
 	)
 	(label "SW6"
-		(at 71.12 170.815 90)
+		(at 58.42 170.815 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12241,7 +12241,7 @@
 		(uuid "8f56be10-1f70-42c4-a88c-83f133f685d0")
 	)
 	(label "SW4"
-		(at 36.195 229.87 0)
+		(at 111.76 237.49 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12271,7 +12271,7 @@
 		(uuid "a25c3d4d-a95d-43bf-95ee-08650f56b5f5")
 	)
 	(label "SW6"
-		(at 36.195 234.95 0)
+		(at 111.76 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12311,7 +12311,7 @@
 		(uuid "ad7baf86-45c5-4f4d-8463-b9504ce9d3c2")
 	)
 	(label "SW7"
-		(at 73.66 170.815 90)
+		(at 55.88 170.815 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12321,7 +12321,7 @@
 		(uuid "b0653f8b-bac9-4d28-b55d-4be56a83b602")
 	)
 	(label "A9"
-		(at 234.315 91.44 180)
+		(at 234.95 91.44 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12331,7 +12331,7 @@
 		(uuid "b198855f-39f7-40d9-9083-fa6f1cd3ce77")
 	)
 	(label "SW3"
-		(at 63.5 170.815 90)
+		(at 66.04 170.815 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12351,7 +12351,7 @@
 		(uuid "b80aeaba-14e7-4cbf-b894-1570eebd7bd5")
 	)
 	(label "SW7"
-		(at 36.195 237.49 0)
+		(at 111.76 229.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12361,7 +12361,7 @@
 		(uuid "bd55f374-9d9d-4404-afc6-009e9ff54fb1")
 	)
 	(label "SW2"
-		(at 111.76 234.95 0)
+		(at 36.83 232.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12441,7 +12441,7 @@
 		(uuid "da9a7c4c-39f4-41bf-9dee-7b9b9b80d7f4")
 	)
 	(label "SW5"
-		(at 68.58 170.815 90)
+		(at 60.96 170.815 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12471,7 +12471,7 @@
 		(uuid "e5a38f56-87a1-482c-b108-751d2f132ae9")
 	)
 	(label "SW0"
-		(at 55.88 170.815 90)
+		(at 73.66 170.815 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12481,7 +12481,7 @@
 		(uuid "e5e8a341-4046-4375-8598-1927b46f3596")
 	)
 	(label "A7"
-		(at 234.315 96.52 180)
+		(at 234.95 96.52 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12491,7 +12491,7 @@
 		(uuid "ecc4708e-84b4-4296-82f1-4cac9045c484")
 	)
 	(label "SW1"
-		(at 111.76 232.41 0)
+		(at 36.83 234.95 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12501,7 +12501,7 @@
 		(uuid "f25985be-14e9-4898-bf56-7bebc3abb427")
 	)
 	(label "A8"
-		(at 234.315 93.98 180)
+		(at 234.95 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)

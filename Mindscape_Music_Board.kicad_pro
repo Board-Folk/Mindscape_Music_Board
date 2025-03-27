@@ -490,7 +490,7 @@
       "plot": "mmb_gerbers",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "Mindscape_Music_Board.step",
       "svg": "",
       "vrml": ""
     },
