@@ -8,8 +8,10 @@ Reproduction of the early PC sound card of the same name.
 
 **Caution:** ensure the ISA clock of your PC is no greater than 5 MHz. The
 ISA clock is halved before feeding this to the AY chips, which are rated for
-a maximum of 2.5 MHz. Anything faster than this may damage them.
-
+a maximum of 2.5 MHz. Anything faster than this may damage them. The original
+IBM PC and XT run at 4.77 MHz, which is fine. You might get away with a 6 MHz
+AT but the pitch of the audio will be way off what was intended. A later 8 MHz
+AT would be pushing it.
 
 ## Settings
 
