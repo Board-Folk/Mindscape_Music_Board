@@ -2,9 +2,14 @@
 
 Reproduction of the early PC sound card of the same name.
 
+**Status: Untested**
+
 ![Render of PCB](https://raw.githubusercontent.com/Board-Folk/Mindscape_Music_Board/master/images/mmb_pcb.jpg)
 
-**Status: Untested**
+**Caution:** ensure the ISA clock of your PC is no greater than 5 MHz. The
+ISA clock is halved before feeding this to the AY chips, which are rated for
+a maximum of 2.5 MHz. Anything faster than this may damage them.
+
 
 ## Settings
 
